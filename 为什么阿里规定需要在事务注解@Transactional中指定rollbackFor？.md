@@ -1,12 +1,8 @@
 # 为什么阿里规定需要在事务注解@Transactional中指定rollbackFor？
 
 > @Transactional(rollbackFor=Exception.class)的使用
-
-点击上方“方志朋”，选择“设为星标”
-
-回复”666“获取新整理的面试文章
-
-![](https://mmbiz.qpic.cn/mmbiz_jpg/ow6przZuPIENb0m5iawutIf90N2Ub3dcPuP2KXHJvaR1Fv2FnicTuOy3KcHuIEJbd9lUyOibeXqW8tEhoJGL98qOw/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1&wx_co=1)
+>
+> 
 
 _作者：Mint6_
 
