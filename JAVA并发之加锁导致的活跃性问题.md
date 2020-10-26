@@ -13,7 +13,7 @@
 
 什么是死锁
 
-![image-20201026192610810](/Users/lty/Library/Application Support/typora-user-images/image-20201026192610810.png)
+![image-20201026192610810](/Users/lty/IdeaProjects/wx_gzh_article/pic/image-20201026192610810-3715871-3715990.png)
 
 > ​		死锁是当线程进入无限期等待状态时发生的情况，因为所请求的锁被另一个线程持有，而另一个线程又等待第一个线程持有的另一个锁 导致互相等待。总结:多个线程互相等待对方释放锁。
 
@@ -175,7 +175,7 @@ T3 time out
 
 什么是活锁
 
-![image-20201026201127219](/Users/lty/Library/Application Support/typora-user-images/image-20201026201127219.png)
+![image-20201026201127219](/Users/lty/IdeaProjects/wx_gzh_article/pic/image-20201026201127219-3715883-3716018.png)
 
 ​		死锁是一直死等，活锁他不死等，它会一直执行，但是线程就是不能继续，因为它不断重试相同的操作。换句话说，就是信息处理线程并没有发生阻塞，但是永远都不会前进了,当他们为了彼此间的响应而相互礼让，使得没有一个线程能够继续前进，那么就发生了活锁
 
@@ -191,7 +191,7 @@ T3 time out
 >- 线程被永久堵塞在一个等待进入同步块的状态，因为其他线程总是能在它之前持续地对该同步块进行访问。
 >- 线程在等待一个本身(在其上调用 wait())也处于永久等待完成的对象，因为其他线程总是被持续地获得唤醒。
 
-​												 ![image-20201026201620680](/Users/lty/Library/Application Support/typora-user-images/image-20201026201620680.png)
+​												 ![image-20201026201620680](/Users/lty/IdeaProjects/wx_gzh_article/pic/image-20201026201620680-3715896.png)
 
 饥饿问题最经典的例子就是哲学家问题。如图所示：有五个哲学家用餐，每个人要活得两把叉子才可以就餐。当 2、4 就餐时，1、3、5 永远无法就餐，只能看着盘中的美食饥饿的等待着。
 
